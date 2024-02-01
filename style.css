@@ -1,0 +1,595 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f5e2f5;
+}
+
+
+
+
+.row1 {
+    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem ;
+}
+
+
+
+.row1 .rec {
+    width: 200px;
+    height: 130px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+
+.row1 .rec .gsqr1{
+    width: 100px;
+    height: 100px;
+    background-color: #e9e7e7;
+    position: relative;
+   top: 15px;
+   left: 50px;
+   
+}
+
+.sqr1{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr1:hover {
+    transform: rotate(45deg);
+}
+
+.sqr2{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all  linear 1s;
+
+}
+
+.sqr2:hover {
+    transform: rotateX(45deg);
+}
+
+.sqr3{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all  linear 1s;
+}
+
+.sqr3:hover {
+    transform: rotateY(45deg);
+}
+
+.sqr4{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all  linear 1s;
+
+}
+
+.sqr4:hover {
+    transform: scale(2);
+
+}
+
+.sqr5{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.5;
+    transition: all  linear 1s;
+
+}
+
+.sqr5:hover {
+    transform: scaleX(2);
+
+}
+
+
+
+
+
+.row2 {
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.row2 .rec {
+    width: 200px;
+    height: 130px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+
+.row2 .rec .gsqr2{
+    width: 100px;
+    height: 100px;
+    background-color: #e9e7e7;
+    position: relative;
+   top: 15px;
+   left: 50px;
+   
+}
+
+.sqr6{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr6:hover {
+    transform: scaleY(1.9);
+}
+
+.sqr7{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr7:hover {
+   
+   transform: skewX(45deg);
+   
+}
+
+.sqr8{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr8:hover {
+   
+   transform: skewY(45deg);
+   
+}
+
+
+.sqr9{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr9:hover {
+  transform:  translate(50px, 18px);
+   
+}
+
+.sqr10{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr10:hover {
+  transform:  translate(50px);
+   
+}
+
+
+
+
+
+
+.row3 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.row3 .rec {
+    width: 200px;
+    height: 130px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+
+.row3 .rec .gsqr3{
+    width: 100px;
+    height: 100px;
+    background-color: #e9e7e7;
+    position: relative;
+   top: 15px;
+   left: 50px;
+   
+}
+
+.sqr11{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr11:hover {
+    transform:  translate(0, 50px);
+}
+
+.sqr12 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr12:hover {
+    transform:  translate(0, 50px);
+}
+
+
+
+
+
+
+
+
+.row4 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center; 
+}
+
+
+.row4.rec {
+    width: 200px;
+    height: 130px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.row4 .rec .gsqr4 {
+    width: 100px;
+    height: 100px;
+    background-color: #e9e7e7;
+    position: relative;
+   top: 15px;
+   left: 50px;
+   
+   
+}
+
+.sqr13 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr13:hover {
+    transform:  translate(0, 50px);
+}
+
+.sqr14 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr14:hover {
+  transform: rotateY(45deg);
+}
+
+
+
+
+.row5 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.row5.rec {
+    width: 200px;
+    height: 130px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.row5 .rec .gsqr5{
+    width: 100px;
+    height: 100px;
+    background-color: #e9e7e7;
+    position: relative;
+   top: 15px;
+   left: 50px;
+   
+}
+
+
+.sqr15{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr15:hover {
+  transform-origin: top  right;
+}
+
+
+
+.sqr16{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr16:hover {
+    transform-origin: top  right;
+}
+
+.sqr17{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+
+.sqr17:hover {
+  transform-origin: top  right;
+}
+
+.sqr18{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+
+.sqr18:hover {
+  transform-origin: top  right;
+}
+
+.sqr19 {
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr19:hover {
+  transform-origin: top  right;
+}
+
+
+.row6 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.row6.rec {
+    width: 200px;
+    height: 130px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.row6 .rec .gsqr6{
+    width: 100px;
+    height: 100px;
+    background-color: #e9e7e7;
+    position: relative;
+   top: 15px;
+   left: 50px;
+   
+}
+
+.sqr20{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr20:hover {
+  transform-origin: top  right;
+}
+
+
+.sqr21{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr21:hover {
+  transform-origin: top  right;
+}
+
+
+.sqr22{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr22:hover {
+  transform-origin: top  right;
+}
+
+
+.sqr23{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr23:hover {
+  transform-origin: top  right;
+}
+
+
+
+.sqr24{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr24:hover {
+  transform-origin: top  right;
+}
+
+
+.row7 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.row7.rec {
+    width: 200px;
+    height: 130px;
+    background-color: #ffffff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+.row7 .rec .gsqr7{
+    width: 100px;
+    height: 100px;
+    background-color: #e9e7e7;
+    position: relative;
+   top: 15px;
+   left: 50px;
+   
+}
+
+.sqr25{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr25:hover {
+  transform-origin: top  right;
+}
+
+
+
+.sqr26{
+    width: 100px;
+    height: 100px;
+    background-color: hsl(298, 71%, 70%);
+    opacity: 0.7;
+    transition: all linear 1s;
+
+}
+
+.sqr26:hover {
+  transform: translateY(100px);
+}
+
+
+
+
+
+
