@@ -25,6 +25,8 @@
     background-color: #ffffff;
     cursor: pointer;
     margin: 10px;
+    box-shadow: 0 3px 5px #ddd;
+
 
 }
 
@@ -44,8 +46,7 @@
     height: 100px;
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
-    transition: all linear 1s;
-
+    transition: ease-in-out 1s;
 }
 
 .sqr1:hover {
@@ -57,7 +58,7 @@
     height: 100px;
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
-    transition: all  linear 1s;
+    transition: ease-in-out 1s;
 
 }
 
@@ -70,7 +71,7 @@
     height: 100px;
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
-    transition: all  linear 1s;
+    transition: ease-in-out 1s;
 }
 
 .sqr3:hover {
@@ -82,7 +83,7 @@
     height: 100px;
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
-    transition: all  linear 1s;
+    transition: ease-in-out 1s;
 
 }
 
@@ -96,7 +97,7 @@
     height: 100px;
     background-color: hsl(298, 71%, 70%);
     opacity: 0.5;
-    transition: all  linear 1s;
+    transition: ease-in-out 1s;
 
 }
 
@@ -111,6 +112,7 @@
 
 .row2 {
    
+    
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -124,8 +126,9 @@
     background-color: #ffffff;
     cursor: pointer;
     margin: 10px;
-
+    box-shadow: 0 3px 5px #ddd;
 }
+
 
 
 .row2 .rec .gsqr2{
@@ -143,7 +146,7 @@
     height: 100px;
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
-    transition: all linear 1s;
+    transition: ease-in-out 1s;
 
 }
 
@@ -156,7 +159,7 @@
     height: 100px;
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
-    transition: all linear 1s;
+    transition: ease-in-out 1s;
 
 }
 
@@ -171,7 +174,7 @@
     height: 100px;
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
-    transition: all linear 1s;
+    transition: ease-in-out 1s;
 
 }
 
@@ -230,7 +233,7 @@
     background-color: #ffffff;
     cursor: pointer;
     margin: 10px;
-
+    box-shadow: 0 3px 5px #ddd;
 }
 
 
@@ -254,7 +257,7 @@
 }
 
 .sqr11:hover {
-    transform:  translate(0, 50px);
+    transform:  translate(0, 45px);
 }
 
 .sqr12 {
@@ -267,12 +270,8 @@
 }
 
 .sqr12:hover {
-    transform:  translate(0, 50px);
+    transform: skewY(44deg) translate(42px,-42px) scale(1.9, 1.9);
 }
-
-
-
-
 
 
 
@@ -285,12 +284,13 @@
 }
 
 
-.row4.rec {
+.row4 .rec {
     width: 200px;
     height: 130px;
     background-color: #ffffff;
     cursor: pointer;
     margin: 10px;
+    box-shadow: 0 3px 5px #ddd;
 
 }
 
@@ -315,7 +315,7 @@
 }
 
 .sqr13:hover {
-    transform:  translate(0, 50px);
+    transform: perspective(100px) rotateX(45deg);
 }
 
 .sqr14 {
@@ -328,7 +328,7 @@
 }
 
 .sqr14:hover {
-  transform: rotateY(45deg);
+    transform: perspective(100px) rotateY(45deg);
 }
 
 
@@ -343,13 +343,13 @@
 }
 
 
-.row5.rec {
+.row5 .rec {
     width: 200px;
     height: 130px;
     background-color: #ffffff;
     cursor: pointer;
     margin: 10px;
-
+    box-shadow: 0 3px 5px #ddd;
 }
 
 .row5 .rec .gsqr5{
@@ -373,7 +373,8 @@
 }
 
 .sqr15:hover {
-  transform-origin: top  right;
+    transform-origin: 100% 0 0;
+    transform: rotate(45deg);
 }
 
 
@@ -388,9 +389,9 @@
 }
 
 .sqr16:hover {
-    transform-origin: top  right;
+    transform-origin: 0 100% 0;
+    transform: rotate(45deg);
 }
-
 .sqr17{
     width: 100px;
     height: 100px;
@@ -402,7 +403,8 @@
 
 
 .sqr17:hover {
-  transform-origin: top  right;
+    transform-origin: bottom;
+    transform: perspective(400px) rotateX(45deg);
 }
 
 .sqr18{
@@ -411,12 +413,12 @@
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
     transition: all linear 1s;
-
+    transform-origin: top;
 }
 
 
 .sqr18:hover {
-  transform-origin: top  right;
+    transform: perspective(200px) rotateX(60deg);
 }
 
 .sqr19 {
@@ -429,7 +431,8 @@
 }
 
 .sqr19:hover {
-  transform-origin: top  right;
+    transform-origin: left;
+    transform: perspective(400px) rotateY(45deg);
 }
 
 
@@ -442,13 +445,13 @@
 }
 
 
-.row6.rec {
+.row6 .rec {
     width: 200px;
     height: 130px;
     background-color: #ffffff;
     cursor: pointer;
     margin: 10px;
-
+    box-shadow: 0 3px 5px #ddd;
 }
 
 .row6 .rec .gsqr6{
@@ -471,9 +474,9 @@
 }
 
 .sqr20:hover {
-  transform-origin: top  right;
+    transform-origin: right;
+    transform: perspective(300px) rotateY(60deg);
 }
-
 
 .sqr21{
     width: 100px;
@@ -481,13 +484,13 @@
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
     transition: all linear 1s;
+    transform-origin: top  right;
 
 }
 
 .sqr21:hover {
-  transform-origin: top  right;
+    transform: scale(2,2);
 }
-
 
 .sqr22{
     width: 100px;
@@ -495,11 +498,11 @@
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
     transition: all linear 1s;
-
+    transform-origin: bottom left;
 }
 
 .sqr22:hover {
-  transform-origin: top  right;
+    transform: scale(2,2);
 }
 
 
@@ -509,11 +512,12 @@
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
     transition: all linear 1s;
+    transform-origin: 100% 0 0;
 
 }
 
 .sqr23:hover {
-  transform-origin: top  right;
+    transform: scaleX(2);
 }
 
 
@@ -524,11 +528,12 @@
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
     transition: all linear 1s;
+    transform-origin: left;
 
 }
 
 .sqr24:hover {
-  transform-origin: top  right;
+    transform: scaleX(2);
 }
 
 
@@ -537,17 +542,18 @@
     flex-flow: row wrap;
     justify-content: center;
     align-items: center;
+    margin-bottom: 2rem ;
     
 }
 
 
-.row7.rec {
+.row7 .rec {
     width: 200px;
     height: 130px;
     background-color: #ffffff;
     cursor: pointer;
     margin: 10px;
-
+    box-shadow: 0 3px 5px #ddd;
 }
 
 .row7 .rec .gsqr7{
@@ -566,11 +572,12 @@
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
     transition: all linear 1s;
+    transform-origin: top;
 
 }
 
 .sqr25:hover {
-  transform-origin: top  right;
+    transform: scaleY(2);
 }
 
 
@@ -581,11 +588,12 @@
     background-color: hsl(298, 71%, 70%);
     opacity: 0.7;
     transition: all linear 1s;
+    transform-origin: bottom;
 
 }
 
 .sqr26:hover {
-  transform: translateY(100px);
+    transform: scaleY(2);
 }
 
 
